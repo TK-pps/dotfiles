@@ -1,0 +1,13 @@
+theme: NoCommandBar
+backgroundTranslucentEffect: ''
+backgroundTranslucentEffectRegion: ''
+styleConstants:
+  - ''
+controlStyles:
+  - target: ''
+    styles:
+      - ''
+themeResourceVariables:
+  - ''
+explorerFrameContainerHeight: 0
+xamlDiagnosticsHandling: alert

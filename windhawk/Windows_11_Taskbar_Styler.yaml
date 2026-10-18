@@ -1,0 +1,19 @@
+theme: WindowGlass_variant_Split
+styleConstants:
+  - ''
+controlStyles:
+  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton]
+    styles:
+      - Visibility=Collapsed
+  - target: Taskbar.TaskbarFrame > Grid#RootGrid
+    styles:
+      - Margin=10,2,0,0
+      - BorderThickness=0.5,1,0,0
+  - target: StackPanel#SystemTrayFrameGrid, Grid#SystemTrayFrameGrid
+    styles:
+      - Margin=0,2,0,0
+      - BorderThickness=0,1,0.5,0
+themeResourceVariables:
+  - ''
+clickThroughTaskbar: 0
+xamlDiagnosticsHandling: alert
